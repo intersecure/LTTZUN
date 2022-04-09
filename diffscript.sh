@@ -7,4 +7,3 @@ do
 echo $moddir/$i
 diff --unified=0 $moddir/$i $gamedir/$i >> diffresults.txt
 done
-
