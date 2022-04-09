@@ -2,15 +2,7 @@
 <!--	CoC 1.4.10 - DoctorX Questlines 1.6 -->
 <xml>
 
-<!-- /////////////////////////////////////////////////////////////////////////////////////////////
-	<!--
-	<!-- Professor Kalancha (Clear Sky Medic) Character Description
-	<!--
-	<!--	Modified by SarisKhan
-	<!--	for Lost to the Zone
-	<!--	September 17, 2017
-	<!--
-	<!-- ----------------------------------------------------------------------------------------- -->
+
     <specific_character id="mar_smart_terrain_base_doctor" team_default = "1">
     <name>mar_smart_terrain_base_doctor_name</name>
     <icon>ui_npc_u_nebo_2_face_2</icon>
@@ -43,7 +35,6 @@
     </specific_character>
 
 	
-<!-------------------------- THE REAL DOC ---------------------- -->
     <specific_character id="mar_smart_terrain_doc_doctor" team_default = "1">
 		<name>marsh_doctor_name</name>
 		<icon>ui_inGame2_doc</icon>
@@ -75,8 +66,6 @@
 #include "gameplay\character_criticals.xml"
     </specific_character>
 
-
-<!-- Librarian (Clear Sky Barman) Character Description -->
     <specific_character id="mar_base_stalker_barmen" team_default="1">
 		<name>mar_base_stalker_barmen_name</name>
 		<icon>ui_inGame2_librarian</icon>
@@ -119,7 +108,6 @@
     </specific_character>
 
 
-<!-- Spore (Clear Sky Trader) Character Description -->
     <specific_character id="mar_base_owl_stalker_trader" team_default="1">
 		<name>mar_base_owl_stalker_trader_name</name>
 		<icon>ui_inGame2_csky_trade</icon>
@@ -152,7 +140,6 @@
     </specific_character>
 
 
-<!-- Novikov (Clear Sky Mechanic) Character Description -->
     <specific_character id="mar_base_stalker_tech" team_default = "1">
         <name>mar_base_stalker_tech_name</name>
         <icon>ui_inGame2_Novikov</icon>
@@ -243,9 +230,9 @@
 		<actor_dialog>drx_sl_change_faction_dialog</actor_dialog>
 		<actor_dialog>mar_smart_terrain_base_leader_background</actor_dialog>
 		<actor_dialog>mar_smart_terrain_base_leader_csky_history</actor_dialog>
-		<!--------------------- mlr ------------------------>	
+
 		<actor_dialog>find_blackbox_mlr_reward_csky</actor_dialog>
-		<!--------------------- mlr ------------------------>	
+
 		<actor_dialog>actor_break_dialog</actor_dialog>
     </specific_character>
 

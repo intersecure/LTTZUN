@@ -459,6 +459,7 @@
 
 
 	<!-- Special -->
+
 <specific_character id="sim_default_isg_trader" team_default = "1">
 #include "gameplay\profiles\character_desc_isg_special.xml"
     <name>GENERATE_NAME_stalker</name>
@@ -473,10 +474,12 @@
 	<actor_dialog>dm_ordered_task_completed_dialog</actor_dialog>
 	<actor_dialog>dm_important_documents</actor_dialog>
 	<actor_dialog>buy_route</actor_dialog>
+
 	<!--actor_dialog>buy_extra_items</actor_dialog-->
+
 	<actor_dialog>actor_break_dialog</actor_dialog>
 </specific_character>
-	
+
 <specific_character id="sim_default_isg_mechanic" team_default = "1">
 #include "gameplay\profiles\character_desc_isg_special.xml"
     <name>GENERATE_NAME_stalker</name>

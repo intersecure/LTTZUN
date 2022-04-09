@@ -11,15 +11,7 @@
 <===========================================================-->
 
 <xml>
-	<!-- /////////////////////////////////////////////////////////////////////////////////////////////
-	<!--
-	<!-- Colonel Degtyarev (Military Officer) Character Description
-	<!--
-	<!--	Made by SarisKhan
-	<!--	for Lost to the Zone: Operation Afterglow
-	<!--	06 November 2018
-	<!--
-	<!-- ----------------------------------------------------------------------------------------- -->
+
 	<specific_character id="army_degtyarev" team_default = "1">
 	<name>army_degtyarev_name</name>
 	<icon>ui_inGame2_Hero</icon>
@@ -464,18 +456,7 @@
 #include "gameplay\character_criticals.xml"
 #include "gameplay\character_dialogs.xml"
     </specific_character>
-	
-	<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
-	
-	<!-- /////////////////////////////////////////////////////////////////////////////////////////////
-	<!--
-	<!-- Strelok (Legendary Stalker) Character Description
-	<!--
-	<!--	Made by SarisKhan
-	<!--	for Lost to the Zone: Operation Afterglow
-	<!--	19 November 2018
-	<!--
-	<!-- ----------------------------------------------------------------------------------------- -->
+
 	<specific_character id="stalker_strelok_oa" team_default = "1">
     <name>stalker_strelok_oa_name</name>
     <icon>ui_inGame2_strelok_ico</icon>
@@ -515,17 +496,7 @@
     <actor_dialog>actor_break_dialog</actor_dialog>
     </specific_character>
 
-	<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
 	
-	<!-- /////////////////////////////////////////////////////////////////////////////////////////////
-	<!--
-	<!-- Rogue (Strelok's Companion) Character Description
-	<!--
-	<!--	Made by SarisKhan
-	<!--	for Lost to the Zone: Operation Afterglow
-	<!--	20 November 2018
-	<!--
-	<!-- ----------------------------------------------------------------------------------------- -->
 	<specific_character id="stalker_rogue_oa" team_default = "1">
     <name>stalker_rogue_oa_name</name>
     <icon>ui_inGame2_neutral_2_merc</icon>
@@ -562,17 +533,7 @@
     <actor_dialog>actor_break_dialog</actor_dialog>
     </specific_character>
 	
-	<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
-	
-	<!-- /////////////////////////////////////////////////////////////////////////////////////////////
-	<!--
-	<!-- Stitch (Strelok's Companion) Character Description
-	<!--
-	<!--	Made by SarisKhan
-	<!--	for Lost to the Zone: Operation Afterglow
-	<!--	20 November 2018
-	<!--
-	<!-- ----------------------------------------------------------------------------------------- -->
+
 	<specific_character id="stalker_stitch_oa" team_default = "1">
     <name>stalker_stitch_oa_name</name>
     <icon>ui_inGame2_neutral_2_mask</icon>

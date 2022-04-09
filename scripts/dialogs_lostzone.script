@@ -703,7 +703,7 @@ end
 
 xr_effects.send_msg_hb_isg_dushman_intel = function(actor, npc, p)
 	local msg = game.translate_string("st_msg_hb_isg_dushman_intel")
-	local name = game.translate_string("ds_domik_isg_leader_name")
+	local name = game.translate_string("_name")
 	local comm = game.translate_string("st_dyn_news_comm_isg_6")
 	local se = strformat("%s, %s",name,comm)
 	db.actor:give_game_news(se, msg, "ui_inGame2_Hernandez", 20000, 20000)
